@@ -1,0 +1,105 @@
+<!doctype html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>for 志翔</title>
+  <meta name="description" content="來自PID的祝福">
+  <meta name="theme-color" content="#242923">
+
+  <!-- 連結預覽（LINE / Messenger / FB / Slack） -->
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="for 志翔">
+  <meta property="og:description" content="來自PID的祝福">
+  <!-- ⚠️ 若 repo 名稱不是 chi-cheung，請把下面兩行網址改成實際網址 -->
+  <meta property="og:url" content="https://shenny-ops.github.io/chi-cheung/">
+  <meta property="og:image" content="https://shenny-ops.github.io/chi-cheung/images/og-cover.jpg">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta name="twitter:card" content="summary_large_image">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=IBM+Plex+Mono:wght@400;500&family=Noto+Serif+TC:wght@400;600&display=swap">
+  <link rel="preload" as="image" href="images/photo-02.jpg">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <div id="top"></div>
+
+  <!-- A. COVER -->
+  <header class="cover wrap">
+    <div class="meta-bar mono fade">
+      <span>PID · SPECIAL ISSUE</span><span>ROLL Nº 01 — 2026</span><span>ISO 400 · 36 EXP.</span>
+    </div>
+
+    <div class="cover-grid">
+      <div class="cover-text">
+        <h1 class="title fade d1"><span>THE</span><span>CONTACT</span><span>SHEET</span></h1>
+        <div class="rule"></div>
+        <div class="fade d2">
+          <p class="for">For 志翔</p>
+          <p class="mono stats" id="stats">13 people · 3 photos · Countless memories</p>
+          <a class="btn mono" href="#gallery">VIEW THE GALLERY ↓</a>
+        </div>
+      </div>
+
+      <figure class="cover-photo viewfinder">
+        <img src="images/photo-02.jpg" width="1198" height="1802" alt="封面照片：高高舉起小徽章的一刻">
+        <span class="corner tl"></span><span class="corner tr"></span>
+        <span class="corner bl"></span><span class="corner br"></span>
+        <div class="readout mono" aria-hidden="true"><span>AF ▢</span><span>1/250 · F2.0</span></div>
+        <div class="shutter" aria-hidden="true"></div>
+      </figure>
+    </div>
+  </header>
+
+  <main>
+    <!-- B. PHOTO GALLERY -->
+    <section id="gallery" class="gallery wrap" aria-label="照片集">
+      <div class="sprockets" aria-hidden="true"></div>
+      <div class="section-label mono">
+        <span>02 / THE FRAMES</span><span id="frame-count"></span>
+      </div>
+      <div class="frames" id="frames"><!-- 由 js/main.js 產生 --></div>
+    </section>
+
+    <!-- C. MESSAGES -->
+    <section id="notes" class="notes" aria-label="同事留言">
+      <div class="wrap">
+        <div class="section-label mono khaki">
+          <span>03 / MESSAGES</span><span id="note-count"></span>
+        </div>
+        <h2 class="notes-title">NOTES FROM <i>the</i> CREW</h2>
+        <div class="note-columns" id="note-list"><!-- 由 js/main.js 產生 --></div>
+      </div>
+    </section>
+  </main>
+
+  <!-- D. CLOSING -->
+  <footer class="closing reveal">
+    <p class="mono">END OF ROLL · 36 / 36</p>
+    <h2>Thanks for being part of the picture.</h2>
+    <div class="rule"></div>
+    <p class="sign">With love, your PID teammates.</p>
+    <a class="rewind mono" href="#top">↑ REWIND</a>
+  </footer>
+
+  <!-- Lightbox -->
+  <div class="lightbox" id="lightbox" role="dialog" aria-modal="true" aria-label="照片放大檢視" hidden>
+    <div class="lb-bar mono">
+      <span id="lb-no"></span>
+      <button type="button" class="lb-close" id="lb-close">CLOSE</button>
+    </div>
+    <img id="lb-img" alt="">
+    <div class="lb-bar">
+      <button type="button" class="lb-nav mono" id="lb-prev" aria-label="上一張">← PREV</button>
+      <span class="lb-title" id="lb-title"></span>
+      <button type="button" class="lb-nav mono" id="lb-next" aria-label="下一張">NEXT →</button>
+    </div>
+  </div>
+
+  <script src="js/data.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>
