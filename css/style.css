@@ -41,7 +41,7 @@ button { font: inherit; color: inherit; }
 .meta-bar { display: flex; flex-wrap: wrap; justify-content: space-between; gap: 8px 24px; margin-bottom: clamp(20px, 3vw, 36px); }
 
 .cover-grid {
-  display: flex; flex-wrap: wrap-reverse; align-items: flex-end;
+  display: flex; flex-wrap: wrap-reverse; align-items: center;
   justify-content: space-between; gap: clamp(28px, 4vw, 64px);
 }
 .cover-text { flex: 1 1 520px; min-width: 0; display: flex; flex-direction: column; gap: clamp(24px, 3vw, 40px); padding-bottom: 6px; }
