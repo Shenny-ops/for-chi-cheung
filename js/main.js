@@ -29,7 +29,7 @@
 
     var btn = el('button', 'frame-btn');
     btn.type = 'button';
-    btn.setAttribute('aria-label', '放大檢視 FRAME ' + pad(i + 1) + '：' + p.title);
+    btn.setAttribute('aria-label', '放大檢視 FRAME ' + pad(i + 1) + (p.title ? '：' + p.title : ''));
     var img = el('img');
     img.src = p.src;
     img.alt = p.alt || '';
@@ -40,7 +40,7 @@
 
     fig.appendChild(head);
     fig.appendChild(btn);
-    fig.appendChild(el('figcaption', null, p.title));
+    if (p.title) fig.appendChild(el('figcaption', null, p.title));
     frames.appendChild(fig);
   });
 
