@@ -16,55 +16,43 @@
 
 window.CONTACT_SHEET = {
   photos: [
-  {
-    "src": "images/photo-01.jpg",
-    "title": "收音測試，音量爆表",
-    "alt": "四人在辦公室自拍，後方一人對著麥克風張大嘴大叫",
-    "exif": "f/2.8 · 1/125"
-  },
-  {
-    "src": "images/photo-02.jpg",
-    "title": "本季最高榮譽",
-    "alt": "一臉嚴肅、高高舉起小徽章",
-    "exif": "f/4 · 1/60"
-  },
-  {
-    "src": "images/photo-03.jpg",
-    "title": "這位是我們今天的來賓",
-    "alt": "在辦公室隔間前做出主持人介紹手勢，旁邊同事專心看螢幕",
-    "exif": "f/1.8 · 1/500"
-  },
-  {
-    "src": "images/photo-04.jpg",
-    "title": "C 位出道",
-    "alt": "三人站在一起，中間的人捧著大大的彩虹愛心氣球",
-    "exif": "f/2 · 1/100"
-  },
-  {
-    "src": "images/photo-05.jpg",
-    "title": "最後一份公文，比心簽收",
-    "alt": "走廊上兩人各拿著文件，一起比出手指愛心",
-    "exif": "f/2.8 · 1/60"
-  },
-  {
-    "src": "images/photo-06.jpg",
-    "title": "專注力：全部給了漢堡",
-    "alt": "餐廳裡專心準備開動，桌上是炸雞漢堡和薯條",
-    "exif": "f/1.6 · 1/30"
-  },
-  {
-    "src": "images/photo-07.jpg",
-    "title": "全員 OK，極簡收工",
-    "alt": "九個人在舞台前排成一列，一起比 OK 手勢",
-    "exif": "f/4 · 1/200"
-  },
-  {
-    "src": "images/photo-08.jpg",
-    "title": "新生活，先從種樹開始",
-    "alt": "兩人蹲在草地上種樹，戴著手套比讚",
-    "exif": "f/8 · 1/250"
-  }
-],
+    {
+      "src": "images/photo-01.jpg",
+      "title": "收音測試，音量爆表",
+      "alt": "四人在辦公室自拍，後方一人對著麥克風張大嘴大叫",
+      "exif": "f/2.8 · 1/125"
+    },
+    {
+      "src": "images/photo-02.jpg",
+      "title": "本季最高榮譽",
+      "alt": "一臉嚴肅、高高舉起小徽章",
+      "exif": "f/4 · 1/60"
+    },
+    {
+      "src": "images/photo-03.jpg",
+      "title": "這位是我們今天的來賓",
+      "alt": "在辦公室隔間前做出主持人介紹手勢，旁邊同事專心看螢幕",
+      "exif": "f/1.8 · 1/500"
+    },
+    {
+      "src": "images/photo-04.jpg",
+      "title": "C 位出道",
+      "alt": "三人站在一起，中間的人捧著大大的彩虹愛心氣球",
+      "exif": "f/2 · 1/100"
+    },
+    {
+      "src": "images/photo-05.jpg",
+      "title": "專注力：全部給了漢堡",
+      "alt": "餐廳裡專心準備開動，桌上是炸雞漢堡和薯條",
+      "exif": "f/1.6 · 1/30"
+    },
+    {
+      "src": "images/photo-06.jpg",
+      "title": "新生活，先從種樹開始",
+      "alt": "兩人蹲在草地上種樹，戴著手套比讚",
+      "exif": "f/8 · 1/250"
+    }
+  ],
 
   messages: [
   {
